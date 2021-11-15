@@ -9,7 +9,7 @@ from time import sleep
 # For IBG Paper account, default port is 4002
 port = 7497
 # choose a client id:
-client_id = 1234
+client_id = 9971
 
 # Create an IB app; i.e., an instance of the IB() class from the ib_insync package
 ib = IB()
@@ -28,6 +28,11 @@ current_time = ib.reqCurrentTime()
 
 # Print current time
 print('Current time is: {}'.format(current_time))
+
+
+
+
+
 
 # Close IB connection
 ib.disconnect()
